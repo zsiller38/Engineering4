@@ -53,8 +53,9 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## Media Test
 
- [Hyperlink text](raspberry-pi/test.py)
-![Dino Gif](images/dinoprepgif.gif) 
+ [Testcode](raspberry-pi/test.py)
+
+![DinoGif](images/dinoprepgif.gif) 
 
 ### Test Link
 
