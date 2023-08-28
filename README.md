@@ -53,13 +53,13 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## Media Test
 
- [Testcode](raspberry-pi/test.py)
-
-
-![DinoGif](images/dinoprepgif.gif) 
 
 ### Test Link
+[Testcode](raspberry-pi/test.py)
 
 ### Test Image
+![Food](images/download.jpg)  
+
 
 ### Test GIF
+![DinoGif](images/dinoprepgif.gif) 
