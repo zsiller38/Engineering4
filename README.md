@@ -6,11 +6,9 @@
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
-&nbsp;
+## Basic Countdown
 
-## Raspberry_Pi_Assignment_Template
-
-### Assignment Description
+### Description
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
@@ -31,17 +29,17 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
-## Onshape_Assignment_Template
+## Countdown with LEDs
 
-### Assignment Description
+### Description
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
-### Part Link 
+### Link 
 
 [Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
 
-### Part Image
+### Image
 
 Take a nice screenshot of your Onshape document. 
 
@@ -52,7 +50,6 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 &nbsp;
 
 ## Media Test
-
 
 ### Test Link
 [Testcode](raspberry-pi/test.py)
