@@ -9,9 +9,10 @@ ledr.direction=digitalio.Direction.OUTPUT
 btn = DigitalInOut(board.GP19)
 btn.pull = digitalio.Pull.UP
 btn.direction = Direction.INPUT
-countdown=False
 
-if btn.value == True
+print("Ready for launch")
+
+while btn.value == True
    
     for x in range (10,0,-1):
         print(x)
@@ -19,7 +20,10 @@ if btn.value == True
         time.sleep(.5)
         ledr.value=False
         time.sleep(.5)
-        if x <= 1:
+        
+    if x <= 1:
             print("Liftoff")
             ledg.value=True
             time.sleep(2)
+            ledg.value=False
+            break
