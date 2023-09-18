@@ -1,10 +1,8 @@
 # Engineering_4_Notebook
 
-&nbsp;
-
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Basic Countdown](#basic_countdown)
+* [LED Countdown](#led_countdown)
 
 ## Basic Countdown
 
@@ -23,7 +21,7 @@ Create a basic countdown using a for loop[ to count down from 10 and print lifto
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
-&nbsp;
+
 
 ## LED Countdown
 
@@ -41,7 +39,7 @@ Use the same countdown but blink a red LED each time it counts down and a green 
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
-&nbsp;
+
 
 ## Media Test
 
