@@ -9,19 +9,15 @@
 ## Basic Countdown
 
 ### Description
+Create a basic countdown using a for loop[ to count down from 10 and print liftoff when it reaches zero.
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
-
-### Evidence 
-
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
-
-### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CountdownE4.gif?raw=true" alt="wiring2" style="width:318px;"> | No wiring |
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+ [BasicCountdown](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdown.py)
+
 
 ### Reflection
 
@@ -29,19 +25,17 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
-## Countdown with LEDs
+## LED Countdown
 
 ### Description
+Use the same countdown but blink a red LED each time it counts down and a green led to signal liftoff.
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LEDcountdownGif.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CountdownLEDwiring.PNG?raw=true" alt="wiring2" style="width:318px; height:200px;"> |
 
-### Link 
-
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
-### Image
-
-Take a nice screenshot of your Onshape document. 
+### Code
+ [CountdownLED](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownwithLED.py)
 
 ### Reflection
 
