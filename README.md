@@ -13,7 +13,7 @@ Create a basic countdown using a for loop to count down from 10 and print liftof
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CountdownE4.gif?raw=true" alt="wiring2" style="width:318px;"> | No wiring |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CountdownE4.gif?raw=true" alt="wiring2" style="width:318px;"> |     No wiring    |
 
 ### Code
  [BasicCountdown](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdown.py)
