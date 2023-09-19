@@ -7,7 +7,7 @@
 ## Basic Countdown
 
 ### Description
-Create a basic countdown using a for loop[ to count down from 10 and print liftoff when it reaches zero.
+Create a basic countdown using a for loop to count down from 10 and print liftoff when it reaches zero.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -18,6 +18,7 @@ Create a basic countdown using a for loop[ to count down from 10 and print lifto
 
 
 ### Reflection
+This was a good project to work off the circuit python rust. The code was nothing special but learning the syntax of for loops was interesting. Undestanding which way the for loop and the last number the loop would count lead to my first iterations either counting up or stopping at 2. Other than that there was nothing unique about this first assignment. Using circuit python with picos is so much better than with metros. Uploading and running my code actually works now and my board isn't constantly disconnecting like it did with metro.
 
 ## LED Countdown
 
