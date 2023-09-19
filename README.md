@@ -3,6 +3,8 @@
 ## Table of Contents
 * [Basic Countdown](#basic_countdown)
 * [LED Countdown](#led_countdown)
+* [Button Countdown](#button_countdown)
+* [Servo Countdown](#servo_countdown)
 
 ## Basic Countdown
 
@@ -33,6 +35,21 @@ Use the same countdown but blink a red LED each time it counts down and a green 
  [CountdownLED](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownwithLED.py)
 
 ### Reflection
+The second part of the countdown project used two LEDs that blink during the countdown. Intergrating the LEDs was very simple one is put in the for loop right after the numbers are printed the second goes inside the if statement checking if the countdown has ended.
+``` python
+print(x)   #Prints the number the for loop is on
+    ledr.value=True #Turns light on and off
+    time.sleep(.5)
+    ledr.value=False
+    time.sleep(.5)
+```
+``` python
+if x <= 1:
+        print("Liftoff") 
+        ledg.value=True
+        time.sleep(2)
+```
+Both of these steps only require a few lines of code. The hardest part was remembering how to initialize the LEDs in the setup. My repositories from last year came in handy as I was able to copy the setup from a previous assignment and change the pin numbers to get the LEDs working.
 
 ## Button Countdown
 
