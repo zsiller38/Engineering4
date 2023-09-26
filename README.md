@@ -98,7 +98,7 @@ When the countdown code from the previous assignments is completed rotate a serv
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-|  |  |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CrashAvoidanceP2Gif.gif?raw=true" alt="wiring2" style="width:318px;"> |  |
 
 ### Code
 [LED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyroled.py)
