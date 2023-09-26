@@ -79,6 +79,44 @@ When the countdown code from the previous assignments is completed rotate a serv
 
 ### Reflection
 
+## Accelerometer
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ------ | ------ |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/MyProjectGif.gif?raw=true" alt="wiring2" style="width:318px;"> |  |
+
+### Code
+[Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyrocode.py)
+
+### Reflection
+
+## Accelerometer LED
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+|  |  |
+
+### Code
+[LED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyroled.py)
+
+### Reflection
+
+## Accelerometer OLED
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Gyrooled.gif?raw=true" alt="wiring2" style="width:318px;"> |  |
+
+### Code
+[OLED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyrooled.py)
+
+### Reflection
 
 ## Media Test
 
