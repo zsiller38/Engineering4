@@ -118,6 +118,12 @@ When the countdown code from the previous assignments is completed rotate a serv
 
 ### Reflection
 
+
+## Beam Design
+
+### Description
+The first onshape design of the year was part of a contest; design a beam that could support the most weight hanging from one end. The beam used a prebuilt anchor. The beam had to be 180 mm long and have a 12mm hole at the end for the weight to hang from. The design could not use any support material when printing so no part of the design could have an overhang greater than 45 degrees. Our disign utalized an I-Beam like shape that tappered down towards the end of the beam. The I-Beam used 45 rather than 90 degree angles to prevent overhangs. Holes were also created to make sure the beam was under the 13 gram requirement. 
+
 ## Media Test
 
 ### Test Link
