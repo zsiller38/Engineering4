@@ -68,7 +68,7 @@ Rather than start the countdown when the code program is executed, use a button 
 ## Servo Countdown
 
 ### Description
-When the countdown code from the previous assignments is completed rotate a servo 180 degrees to simulate rocket launch
+When the countdown code from the previous assignments is completed rotate a servo 180 degrees to simulate a rocket launch
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -108,7 +108,7 @@ When the countdown code from the previous assignments is completed rotate a serv
 ## Accelerometer OLED
 
 ### Description
-Using the previous code and wiring, integrate an OLED screen to display the rotational velocity values of the MPU.
+Using the previous code and wiring, integrate an OLED screen to display the rotational velocity values of the MPU. The OLED has five pins that need to be wired. A 3V3, Ground, RST, Data, and Clk. The Data and Clk pins are equivalent to SDA and SCL pins and get plugged into the same SCL and SDA ports that are used by the MPU because they are I2C devices. To do this a separate code was run to find the address for the OLED and MPU. 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -118,12 +118,19 @@ Using the previous code and wiring, integrate an OLED screen to display the rota
 [OLED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyrooled.py)
 
 ### Reflection
-
+The OLED display was much harder to learn how to use than an LCD, but the OLED display is far more versatile. To use the OLED and I2C protocol I had to find the address of both the OLED and MPU. With only one I2C device this step is not necessary. Using this [code](https://drive.google.com/file/d/1YEmYYJnxZW2rdZCV6Mmu-fHIeQoKGVfL/view) we can print the addresses of both devices and by unplugging one we can find the address of the other. 
+After that, I used the following code to set up the font size and color. 
+``` python
+text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
+splash.append(text_area) 
+display.show(splash)
+```
+On another note, I had some trouble ordering my setup and imports. Specifically with the I2C device setup. If they are ordered wrong sometimes VS code says they are undefined but as long as you always define your variable for pins and addresses first there should be no issues.     
 
 ## Beam Design
 
 ### Description
-The first onshape design of the year was part of a contest; design a beam that could support the most weight hanging from one end. The beam used a prebuilt anchor. The beam had to be 180 mm long and have a 12mm hole at the end for the weight to hang from. The design could not use any support material when printing so no part of the design could have an overhang greater than 45 degrees. Our disign utalized an I-Beam like shape that tappered down towards the end of the beam. The I-Beam used 45 rather than 90 degree angles to prevent overhangs. Holes were also created to make sure the beam was under the 13 gram requirement. 
+The first onshape design of the year was part of a contest; design a beam that could support the most weight hanging from one end. The beam used a prebuilt anchor. The beam had to be 180 mm long and have a 12mm hole at the end for the weight to hang from. The design could not use any support material when printing so no part of the design could have an overhang greater than 45 degrees. Our design utilized an I-Beam-like shape that tapered down towards the end of the beam. The I-Beam used 45 rather than 90-degree angles to prevent overhangs. Holes were also created to make sure the beam was under the 13-gram requirement. 
 
 ## Media Test
 
