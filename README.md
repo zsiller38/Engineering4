@@ -85,7 +85,7 @@ When the countdown code from the previous assignments is completed rotate a serv
 
 | **Evidence** | **Wiring** |
 | ------ | ------ |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/MyProjectGif.gif?raw=true" alt="wiring2" style="width:318px;"> |  |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/MyProjectGif.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/MPUPicowiring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Code
 [Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyrocode.py)
@@ -108,10 +108,11 @@ When the countdown code from the previous assignments is completed rotate a serv
 ## Accelerometer OLED
 
 ### Description
+Using the previous code and wiring, integrate an OLED screen to display the rotational velocity values of the MPU.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Gyrooled.gif?raw=true" alt="wiring2" style="width:318px;"> |  |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Gyrooled.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/MPUOLEDwriring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Code
 [OLED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyrooled.py)
