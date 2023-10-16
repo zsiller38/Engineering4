@@ -132,6 +132,44 @@ On another note, I had some trouble ordering my setup and imports. Specifically 
 ### Description
 The first onshape design of the year was part of a contest; design a beam that could support the most weight hanging from one end. The beam used a prebuilt anchor. The beam had to be 180 mm long and have a 12mm hole at the end for the weight to hang from. The design could not use any support material when printing so no part of the design could have an overhang greater than 45 degrees. Our design utilized an I-Beam-like shape that tapered down towards the end of the beam. The I-Beam used 45 rather than 90-degree angles to prevent overhangs. Holes were also created to make sure the beam was under the 13-gram requirement. 
 
+### Evidence
+
+ ![png](images/Beam.png)
+
+### Reflection
+
+Chris and Zach looked at the winning design from the previous year as a basis of design. Tomas Slinglove and Nathanial had a disign that used a lot of chamfers and triangles but after looking at ideal beam theory we realized that a curve would be better. With the added research we put in we created a I beam design with a downward curve.  
+here is the link: https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d
+&nbsp;
+
+## beam 2
+### Assignment Description
+
+this one we designed the beam with the use of FEA.
+### Evidence
+
+ ![png](images/beam2.png)
+
+### Reflection
+
+This beam we used what we had found in the perviuos beam and perfect beam theory to greatly odify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality we broke in the middle. WE also failed by bending past 35mm first so the next one we need to made it more brittle.  
+here is the link: [https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d)
+&nbsp;
+
+## beam 2
+### Assignment Description
+
+this one we designed the beam with the use of FEA after testing our last one
+### Evidence
+
+ ![png](images/beam3.png)
+
+### Reflection
+
+This beam we used what we had found in the perviuos beam and perfect beam theory to greatly odify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality we broke in the middle. WE also failed by bending past 35mm first so the next one we need to made it more brittle.  
+here is the link: [https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d)
+
+
 ## Media Test
 
 ### Test Link
