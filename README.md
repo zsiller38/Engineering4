@@ -5,6 +5,11 @@
 * [LED Countdown](#led_countdown)
 * [Button Countdown](#button_countdown)
 * [Servo Countdown](#servo_countdown)
+* [Accelerometer](#accelerometer)
+* [Accelerometer LED](#accelerometer_led)
+* [Accelerometer OLED](#accelerometer_oled)
+* [Beam Part 1](#beam_part_1_(no_fea))
+* [Beam Part 2](#beam_part_2_(fea))
 
 ## Basic Countdown
 
@@ -165,28 +170,25 @@ here is the link: https://cvilleschools.onshape.com/documents/a0f454c861c2691786
 
 ## Beam Part 2 (FEA)
 ### Assignment Description
+After designing our first beam we used onshapes built in simulation tools to improve our intial design. After redesigning our beam it was tested and then the process of redesign and testing was repeated an additional time. The FEA simulation was run using a force of 30 newtons for consistent results and the force was applied on the mounting face.
 
-this one we designed the beam with the use of FEA.
 ### Evidence
 | [**CAD Model**](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d) | **FEA Analysis** |
 | ----- | ----- |
 | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V2.png?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V2FEA.png?raw=true" alt="wiring2" style="width:318px;"> |
 
-### Reflection
+### Test Videos
+| **Test 1** | **Test 2** |
+| ----- | ----- | 
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V1testG.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V2testG.gif?raw=true" alt="wiring2" style="width:318px;"> |
+
+### Reflection Test 1
 
 This beam we used what we had found in the perviuos beam and perfect beam theory to greatly odify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality we broke in the middle. WE also failed by bending past 35mm first so the next one we need to made it more brittle.  
 here is the link: [https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d)
 &nbsp;
 
-## beam 2
-### Assignment Description
-
-this one we designed the beam with the use of FEA after testing our last one
-### Evidence
-
- ![png](images/beam3.png)
-
-### Reflection
+### Reflection Test 2
 
 This beam we used what we had found in the perviuos beam and perfect beam theory to greatly odify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality we broke in the middle. WE also failed by bending past 35mm first so the next one we need to made it more brittle.  
 here is the link: [https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d)
