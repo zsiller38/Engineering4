@@ -20,7 +20,7 @@ Create a basic countdown using a for loop to count down from 10 and print liftof
 
 
 ### Reflection
-This was a good project to work off the circuit python rust. The code was nothing special but learning the syntax of for loops was interesting. Undestanding which way the for loop and the last number the loop would count lead to my first iterations either counting up or stopping at 2. Other than that there was nothing unique about this first assignment. Using circuit python with picos is so much better than with metros. Uploading and running my code actually works now and my board isn't constantly disconnecting like it did with metro.
+This was a good project to work off the circuit python rust. The code was nothing special but learning the syntax of for loops was interesting. Undestanding which way the for loop and the last number the loop would count led to my first iterations either counting up or stopping at 2. Other than that there was nothing unique about this first assignment. Using Circuit Python with Picos is so much better than with metros. Uploading and running my code actually works now and my board isn't constantly disconnecting like it did with Metro.
 
 ## LED Countdown
 
@@ -68,7 +68,7 @@ Rather than start the countdown when the code program is executed, use a button 
 ## Servo Countdown
 
 ### Description
-When the countdown code from the previous assignments is completed rotate a servo 180 degrees to simulate a rocket launch
+When the countdown code from the previous assignments is completed rotate a servo 180 degrees to simulate a rocket launch.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -78,10 +78,18 @@ When the countdown code from the previous assignments is completed rotate a serv
  [CountdownServo](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownservo.py)
 
 ### Reflection
-
+There was not much to this assignment. Controlling a servo is something I have been doing since starting engineering. I used the info in the assignment and repository from last year to copy and paste the setup and control commands. The servo command was inserted in the same loop that the liftoff led was in. 
+``` python
+if x <= 1:
+        print("Liftoff")
+        servo1.angle=180 #rotates servo
+        ledg.value=True
+```
+That was all there was to this section of the rocket launch system. In conclusion, I enjoyed the Launch Pad assignment. Breaking it up into several small sections made it manageable and also helped establish a line of thought that helped me logically add each component one after the other. 
 ## Accelerometer
 
 ### Description
+An MPU is a type of inertial measurement unit that can record acceleration and angular velocity in the x, y, and z directions. The MPU communicates with the PICO using the SDA and SCL pins. After communication is setup the data from the MPU is printed on the serial monitor. 
 
 | **Evidence** | **Wiring** |
 | ------ | ------ |
@@ -95,6 +103,7 @@ When the countdown code from the previous assignments is completed rotate a serv
 ## Accelerometer LED
 
 ### Description
+Using the same MPU setup we will turn on an LED when the PICO and MPU are rotated 90 degrees vertically. This is done by detecting the change in acceleration in the x, y, and z directions. 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -104,11 +113,12 @@ When the countdown code from the previous assignments is completed rotate a serv
 [LED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyroled.py)
 
 ### Reflection
-
+Adding an LED was interesting because it provided a use for the acceleration data rather than collecting it for the sake of collecting it. To detect when the MPU is flipped vertically you first need to know what the acceleration of the MPU is at rest. At rest, it experiences downward acceleration in the z-direction roughly equal to 9.8 (the acceleration due to gravity). The actual value I received was closer to 7.8 m/s^2, but that could be fixed with calibration. When the MPU is say flipped, the acceleration due to gravity is acting on a different axis. The acceleration in the z direction becomes zero. With this information, an if statement can check when z acceleration dips below a certain value, which indicates that the MPU has been flipped. 
+ 
 ## Accelerometer OLED
 
 ### Description
-Using the previous code and wiring, integrate an OLED screen to display the rotational velocity values of the MPU. The OLED has five pins that need to be wired. A 3V3, Ground, RST, Data, and Clk. The Data and Clk pins are equivalent to SDA and SCL pins and get plugged into the same SCL and SDA ports that are used by the MPU because they are I2C devices. To do this a separate code was run to find the address for the OLED and MPU. 
+Using the previous code and wiring, integrate an OLED screen to display the rotational velocity values of the MPU. The OLED has five pins that need to be wired. A 3V3, Ground, RST, Data, and Clk. The Data and Clk pins are equivalent to SDA and SCL pins and get plugged into the same SCL and SDA ports that the MPU uses because they are I2C devices. To do this a separate code was run to find the address for the OLED and MPU. 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
