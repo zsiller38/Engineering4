@@ -64,6 +64,11 @@ Rather than start the countdown when the code program is executed, use a button 
  [CountdownButton](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownbtn.py)
 
 ### Reflection
+This was one of the harder assignments for me to complete. I was initially having trouble with the button logic and pullup and pulldown. Then I accidentally put my countdown for loop in my loop checking the button state so it either always ran or never ran. Once I got the for loop out of the button checking loop I kept getting error codes because there was nothing in the button checking loop. This is when L learned about [pass](https://www.w3schools.com/python/ref_keyword_pass.asp). Pass allows you to run a loop without actually doing anything. Think of it like a placeholder. When a loop is entered with a pass in it it will exit the loop and return to the start of the code. It allowed me to run my button-checking loop and reset to the start of the code each time the button was not pressed rather than continuing on to the for loop. 
+``` python
+while btn.value == False: #Always checks if button has been pressed or not
+    pass #Allows loop to function without something in it
+```
 
 ## Servo Countdown
 
@@ -89,7 +94,7 @@ That was all there was to this section of the rocket launch system. In conclusio
 ## Accelerometer
 
 ### Description
-An MPU is a type of inertial measurement unit that can record acceleration and angular velocity in the x, y, and z directions. The MPU communicates with the PICO using the SDA and SCL pins. After communication is setup the data from the MPU is printed on the serial monitor. 
+An MPU is a type of inertial measurement unit that can record acceleration and angular velocity in the x, y, and z directions. The MPU communicates with the PICO using the SDA and SCL pins. After communication is set up the data from the MPU is printed on the serial monitor. 
 
 | **Evidence** | **Wiring** |
 | ------ | ------ |
@@ -99,6 +104,11 @@ An MPU is a type of inertial measurement unit that can record acceleration and a
 [Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyrocode.py)
 
 ### Reflection
+The hardest part of using an MPU was the setup and libraries. After that getting data from it was easy. Figuring out how to format that data is where I used [f-strings](https://realpython.com/python-f-strings/). F-strings are a formatting syntax. They are very readable, unlike %-formating, and allow you to call functions which is useful while printing and changing numbers. This is how I used f-strings.
+``` python
+print(f" Acceleration X{Xa:.3f}, Y{Ya:.3f}, Z{Za:.3f}.")
+```
+The :.3f rounds the number to 3 decimal places. 
 
 ## Accelerometer LED
 
