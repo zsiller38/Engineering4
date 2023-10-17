@@ -147,14 +147,15 @@ display.show(splash)
 ```
 On another note, I had some trouble ordering my setup and imports. Specifically with the I2C device setup. If they are ordered wrong sometimes VS code says they are undefined but as long as you always define your variable for pins and addresses first there should be no issues.     
 
-## Beam Design
+## Beam Part 1 (No FEA)
 
 ### Description
 The first onshape design of the year was part of a contest; design a beam that could support the most weight hanging from one end. The beam used a prebuilt anchor. The beam had to be 180 mm long and have a 12mm hole at the end for the weight to hang from. The design could not use any support material when printing so no part of the design could have an overhang greater than 45 degrees. Our design utilized an I-Beam-like shape that tapered down towards the end of the beam. The I-Beam used 45 rather than 90-degree angles to prevent overhangs. Holes were also created to make sure the beam was under the 13-gram requirement. 
 
 ### Evidence
-
- ![png](images/Beam.png)
+| [**CAD Model**](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d) | **FEA Analysis** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V1.png?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V1FEA.png?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Reflection
 
@@ -162,13 +163,14 @@ Chris and Zach looked at the winning design from the previous year as a basis of
 here is the link: https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d
 &nbsp;
 
-## beam 2
+## Beam Part 2 (FEA)
 ### Assignment Description
 
 this one we designed the beam with the use of FEA.
 ### Evidence
-
- ![png](images/beam2.png)
+| [**CAD Model**](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d) | **FEA Analysis** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V2.png?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/V2FEA.png?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Reflection
 
