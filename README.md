@@ -1,15 +1,15 @@
 # Engineering_4_Notebook
 
 ## Table of Contents
-* [Basic Countdown](#basic_countdown)
-* [LED Countdown](#led_countdown)
-* [Button Countdown](#button_countdown)
-* [Servo Countdown](#servo_countdown)
-* [Accelerometer](#accelerometer)
-* [Accelerometer LED](#accelerometer_led)
-* [Accelerometer OLED](#accelerometer_oled)
-* [Beam Part 1](#beam_part_1_(no_fea))
-* [Beam Part 2](#beam_part_2_(fea))
+* [Basic Countdown](#Basic_Countdown)
+* [LED Countdown](#LED_Countdown)
+* [Button Countdown](#Button_Countdown)
+* [Servo Countdown](#Servo_Countdown)
+* [Accelerometer](#Accelerometer)
+* [Accelerometer LED](#Accelerometer_LED)
+* [Accelerometer OLED](#Accelerometer_OLED)
+* [Beam Part 1](#Beam_Part_1_(No_FEA))
+* [Beam Part 2](#Beam_Part_2_(FEA))
 
 ## Basic Countdown
 
@@ -96,6 +96,7 @@ if x <= 1:
         ledg.value=True
 ```
 That was all there was to this section of the rocket launch system. In conclusion, I enjoyed the Launch Pad assignment. Breaking it up into several small sections made it manageable and also helped establish a line of thought that helped me logically add each component one after the other. 
+
 ## Accelerometer
 
 ### Description
@@ -169,8 +170,9 @@ here is the link: https://cvilleschools.onshape.com/documents/a0f454c861c2691786
 &nbsp;
 
 ## Beam Part 2 (FEA)
+
 ### Assignment Description
-After designing our first beam we used onshapes built in simulation tools to improve our intial design. After redesigning our beam it was tested and then the process of redesign and testing was repeated an additional time. The FEA simulation was run using a force of 30 newtons for consistent results and the force was applied on the mounting face.
+After designing our first beam we used onshapes built-in simulation tools to improve our initial design. After redesigning our beam it was tested and then the process of redesign and testing was repeated an additional time. The FEA simulation was run using a force of 30 newtons for consistent results and the force was applied on the mounting face.
 
 ### Evidence
 | [**CAD Model**](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d) | **FEA Analysis** |
