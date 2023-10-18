@@ -1,8 +1,8 @@
 # Engineering_4_Notebook
 
 ## Table of Contents
-* [Basic Countdown](#BasicCountdown)
-* [LED Countdown](#LED_Countdown)
+* [Basic Countdown](#_BasicCountdown)
+* [LED Countdown](#_LED_Countdown)
 * [Button Countdown](#Button_Countdown)
 * [Servo Countdown](#Servo_Countdown)
 * [Accelerometer](#Accelerometer)
