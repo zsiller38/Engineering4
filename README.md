@@ -30,7 +30,7 @@ This was a good project to work off the circuit python rust. The code was nothin
 ## LED Countdown
 
 ### Description
-Use the same countdown but blink a red LED each time it counts down and a green led to signal liftoff.
+Use the same countdown but blink a red LED each time it counts down and a green LED to signal liftoff.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -54,7 +54,7 @@ if x <= 1:
         ledg.value=True
         time.sleep(2)
 ```
-Both of these steps only require a few lines of code. The hardest part was remembering how to initialize the LEDs in the setup. My repositories from last year came in handy as I was able to copy the setup from a previous assignment and change the pin numbers to get the LEDs working.
+Both of these steps only require a few lines of code. The hardest part was remembering how to initialize the LEDs in the setup. My repositories from last year came in handy as I could copy the setup from a previous assignment and change the pin numbers to get the LEDs working.
 
 ## Button Countdown
 
@@ -78,7 +78,7 @@ while btn.value == False: #Always checks if button has been pressed or not
 ## Servo Countdown
 
 ### Description
-When the countdown code from the previous assignments is completed rotate a servo 180 degrees to simulate a rocket launch.
+When the countdown code from the previous assignments is completed, rotate a servo 180 degrees to simulate a rocket launch.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -88,7 +88,7 @@ When the countdown code from the previous assignments is completed rotate a serv
  [CountdownServo](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownservo.py)
 
 ### Reflection
-There was not much to this assignment. Controlling a servo is something I have been doing since starting engineering. I used the info in the assignment and repository from last year to copy and paste the setup and control commands. The servo command was inserted in the same loop that the liftoff led was in. 
+There was not much to this assignment. Controlling a servo is something I have been doing since starting engineering. I used the info in the assignment and repository from last year to copy and paste the setup and control commands. The servo command was inserted in the same loop that the liftoff LED was in. 
 ``` python
 if x <= 1:
         print("Liftoff")
@@ -165,9 +165,8 @@ The first onshape design of the year was part of a contest; design a beam that c
 
 ### Reflection
 
-Chris and Zach looked at the winning design from the previous year as a basis of design. Tomas Slinglove and Nathanial had a disign that used a lot of chamfers and triangles but after looking at ideal beam theory we realized that a curve would be better. With the added research we put in we created a I beam design with a downward curve.  
-here is the link: https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d
-&nbsp;
+We began by looking at the winning design from the previous year as a basis for our design. Tomas Slinglove and Nathaniel had a design that used a lot of chamfers and triangles but after looking at ideal beam theory we realized that a curve would be better. With a [cantilever beam](https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory#Cantilever_beams)
+, if a force is applied at the end, the stress of the beam increases as you get farther from the force point. So the beam must taper as it gets closer to the end to account for that. With the added research we put in we created a I-beam design with a downward curve. We also added holes throughout the beam to reduce weight. 
 
 ## Beam Part 2 (FEA)
 
@@ -186,15 +185,12 @@ After designing our first beam we used onshapes built-in simulation tools to imp
 
 ### Reflection Test 1
 
-This beam we used what we had found in the perviuos beam and perfect beam theory to greatly odify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality we broke in the middle. WE also failed by bending past 35mm first so the next one we need to made it more brittle.  
-here is the link: [https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d)
-&nbsp;
+After running FEA on our original design we found that our I-beam was thicker and stronger than necessary, but the tip of our beam was too weak and would snap off. For this beam, we used what we had found in the previous beam and perfect beam theory to greatly modify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality, we broke in the middle. We also failed by bending past 35mm first so for the next one we need to decrease the displacement.  
+
 
 ### Reflection Test 2
 
-This beam we used what we had found in the perviuos beam and perfect beam theory to greatly odify our old beam. We made the curve of the beam far less and strengthened the mounting area. The FEA seemed to say that we would break at the mounting area first but in reality we broke in the middle. WE also failed by bending past 35mm first so the next one we need to made it more brittle.  
-here is the link: [https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/326089d5b23fb66986b4e29d](https://cvilleschools.onshape.com/documents/a0f454c861c2691786377fa6/w/1d6220f831f8dcc8ccb014d1/e/943aaf02dd4e55416d91be8d)
-
+While testing our first beam we found that it broke not only in the middle but also horizontally where the upper I meets the base of the beam. To fix this we added braces connecting the base and top of the beam. Throughout the second design, we struggled to find meaningful ways to decrease the displacement, and going into the test Zach was skeptical about how much our beam had actually improved. The beam ended up holding 4.8 kg before displacing an improvement of 1.3 kg. We think this was due to inaccuracies in the FEA and the fact that Chris loaded the weights faster. This reduced the time the beam was under stress and therefore prevented the beam from gradually growing weaker as small cracks and breaks formed. In conclusion, our beam was very well-designed and strong. We cannot overstate how helpful variables are in designs you are constantly iterating. Use them when you can. 
 
 ## Media Test
 
