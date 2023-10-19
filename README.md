@@ -63,7 +63,7 @@ Rather than start the countdown when the code program is executed, use a button 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LEDButtonWiringFix.png?raw=true" alt="wiring2" style="width:318px; "> |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/ButtonCountdowngif.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LEDButtonWiringFix.png?raw=true" alt="wiring2" style="width:318px; "> |
 
 ### Code
  [CountdownButton](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownbtn.py)
@@ -82,7 +82,7 @@ When the countdown code from the previous assignments is completed, rotate a ser
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CountdownServoWiringFix.png?raw=true" alt="wiring2" style="width:318px; "> |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/servocoundowngif.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CountdownServoWiringFix.png?raw=true" alt="wiring2" style="width:318px; "> |
 
 ### Code
  [CountdownServo](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/countdownservo.py)
