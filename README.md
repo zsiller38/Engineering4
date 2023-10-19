@@ -123,7 +123,7 @@ Using the same MPU setup we will turn on an LED when the PICO and MPU are rotate
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CrashAvoidanceP2Gif.gif?raw=true" alt="wiring2" style="width:318px;"> |  |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/CrashAvoidanceP2Gif.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/MPUledwiring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Code
 [LED Accelerometer](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/gyroled.py)
