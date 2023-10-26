@@ -8,8 +8,8 @@
 * [Accelerometer](#accelerometer)
 * [Accelerometer LED](#accelerometer-led)
 * [Accelerometer OLED](#accelerometer-oled)
-* [Beam Part 1](#beam-part-1-(no-fea))
-* [Beam Part 2](#beam-part-2-(fea))
+* [Beam Part 1](#beam-part-1-no-fea)
+* [Beam Part 2](#beam-part-2-fea)
 
 ## Basic Countdown
 
