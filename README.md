@@ -3,13 +3,13 @@
 ## Table of Contents
 * [Basic Countdown](#Basic-Countdown)
 * [LED Countdown](#led-countdown)
-* [Button Countdown](#Button-Countdown)
-* [Servo Countdown](#Servo-Countdown)
-* [Accelerometer](#Accelerometer)
-* [Accelerometer LED](#Accelerometer-LED)
-* [Accelerometer OLED](#Accelerometer-OLED)
-* [Beam Part 1](#Beam-Part-1-(No-FEA))
-* [Beam Part 2](#Beam-Part-2-(FEA))
+* [Button Countdown](#button-countdown)
+* [Servo Countdown](#servo-countdown)
+* [Accelerometer](#accelerometer)
+* [Accelerometer LED](#accelerometer-led)
+* [Accelerometer OLED](#accelerometer-oled)
+* [Beam Part 1](#beam-part-1-(no-fea))
+* [Beam Part 2](#beam-part-2-(fea))
 
 ## Basic Countdown
 
