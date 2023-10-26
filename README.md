@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Basic Countdown](#Basic-Countdown)
-* [LED Countdown](#LED-Countdown)
+* [LED Countdown](#led-countdown)
 * [Button Countdown](#Button-Countdown)
 * [Servo Countdown](#Servo-Countdown)
 * [Accelerometer](#Accelerometer)
