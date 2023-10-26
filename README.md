@@ -1,7 +1,7 @@
 # Engineering_4_Notebook
 
 ## Table of Contents
-* [Basic Countdown](https://github.com/zsiller38/Engineering4/blob/main/README.md#basic-countdown)
+* [Basic Countdown](#Basic-Countdown)
 * [LED Countdown](#LED_Countdown)
 * [Button Countdown](#Button_Countdown)
 * [Servo Countdown](#Servo_Countdown)
