@@ -192,6 +192,59 @@ After running FEA on our original design we found that our I-beam was thicker an
 
 While testing our first beam we found that it broke not only in the middle but also horizontally where the upper I meets the base of the beam. To fix this we added braces connecting the base and top of the beam. Throughout the second design, we struggled to find meaningful ways to decrease the displacement, and going into the test Zach was skeptical about how much our beam had actually improved. The beam ended up holding 4.8 kg before displacing an improvement of 1.3 kg. We think this was due to inaccuracies in the FEA and the fact that Chris loaded the weights faster. This reduced the time the beam was under stress and therefore prevented the beam from gradually growing weaker as small cracks and breaks formed. In conclusion, our beam was very well-designed and strong. We cannot overstate how helpful variables are in designs you are constantly iterating. Use them when you can. 
 
+## Landing Area 
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/landingarea1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wiring |
+
+### Code
+[Landing Area]()
+
+### Reflection
+
+## Landing Area OLED
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LandingAreaOLEDF.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LandingareaOLEDwiring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
+
+### Code
+[Landing Area OLED]()
+
+### Reflection
+
+## Morse Code Translation
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
+
+### Code
+[Morse Code Translation]()
+
+### Reflection
+
+## Morse Code Transmission
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecodeLED.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecodeLEDwiring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
+
+### Code
+[Morse Code Transmission]()
+
+### Reflection
+
+
 ## Media Test
 
 ### Test Link
