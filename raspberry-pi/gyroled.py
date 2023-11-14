@@ -7,7 +7,7 @@ import digitalio
 import adafruit_mpu6050 
 import busio
 
-ledr=digitalio.DigitalInOut(board.GP0) #Lines 10-16 led set up
+ledr=digitalio.DigitalInOut(board.GP16) #Lines 10-16 led set up
 ledr.direction=digitalio.Direction.OUTPUT
 
 sda_pin = board.GP14
