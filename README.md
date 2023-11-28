@@ -195,6 +195,7 @@ While testing our first beam we found that it broke not only in the middle but a
 ## Landing Area 
 
 ### Description
+This assignment did not require any physical components and was done entirely within VS code. The primary goal was to get experience using functions and to achieve that requirement the code uses a function to turn 3 coordinates inputted by the user into the area of a triangle. Three new functions `input()`, `split()`, and `try`/`except` allow the code to accept input, split the input into x and y coordinates, and check for syntax errors.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -205,7 +206,9 @@ While testing our first beam we found that it broke not only in the middle but a
 
 ### Reflection
 
+
 ## Landing Area OLED
+
 
 ### Description
 
@@ -252,7 +255,6 @@ While testing our first beam we found that it broke not only in the middle but a
 
 ### Test Image
 ![Food](images/download.jpg)  
-
 
 ### Test GIF
 ![DinoGif](images/dinoprepgif.gif) 
