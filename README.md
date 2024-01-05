@@ -231,6 +231,7 @@ Getting the OLED to display the triangles was more of a troubleshooting problem 
 ## Morse Code 1
 
 ### Description
+This code will take any written input and translate it into Morse code. A Morse code directory is used to store the character translations. Each character is individually translated by passing it through `for element in string_name:`. In the output string, the characters are separated by spaces and the words by a slash. If the user types -q the code will exit the loop using `break`.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -242,6 +243,7 @@ Getting the OLED to display the triangles was more of a troubleshooting problem 
 ### Reflection
 
 ## Morse Code 2
+This project is an extension of the previous one. Now an LED is blinked at varying intervals to transmit the message. Five variables are used for the timing. Two for how long the LED should turn on for a dot and a dash, two determine how long the code should pause for a gap between characters and words, and the final one for the time in between dots and dashes.
 
 ### Description
 
