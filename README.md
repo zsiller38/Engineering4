@@ -215,8 +215,8 @@ This assignment did not require any physical components and was done entirely wi
 
 ## Landing Area 2
 
-
 ### Description
+Integrate a small OLED screen to display the plotted triangles and area. The previous assignment takes the input of three coordinates to calculate the area of the triangle created. The OLED is used to plot the points and display the created triangle and its area. The code also required the adafruit_display_shapes library to plot the triangle and x an y-axis.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
@@ -226,6 +226,7 @@ This assignment did not require any physical components and was done entirely wi
 [Landing Area OLED]()
 
 ### Reflection
+Getting the OLED to display the triangles was more of a troubleshooting problem than code difficulty. I used my previous OLED assignments to retrieve the setup code and then simply inserted the plotting commands in the various code loops. One thing to note is the OLED does not use what one would traditionally think of as a coordinate grid with the origin in the center. Instead, the OLED origin is in the top left corner, so the center of the screen is (64,32). To plot the points correctly which are given in the form of a traditional coordinate grid, 64 was added to every x coordinate and 32 to every y. This accounts for the OLED origin in the top left corner. 
 
 ## Morse Code 1
 
