@@ -253,7 +253,7 @@ This assignment did not require any physical components and was done entirely wi
 
 ### Reflection
 
-## Landing Area 1
+## Data Storage
 
 ### Description
 
@@ -262,22 +262,24 @@ This assignment did not require any physical components and was done entirely wi
 | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
 
 ### Code
-[Landing Area Functions]()
+[Data Storage]()
 
 ### Reflection
 
-## Landing Area 2
+## Data Analysis
 
 ### Description
+Use the CSV data collected in the previous assignment to create two graphs to represent data. One graph will use a line graph to display the x, y, and z acceleration on the y-axis and time on the x-axis. The other will show whether the tilt factor is 0 or 1 denoting if the board has been tilted 90 degrees from the horizontal. 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Tilt%20Meter.png?raw=true" alt="wiring2" style="width:318px;" > <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Zachary's%20MPU%20Data.png?raw=true" alt="wiring2" style="width:318px;" > | No Wriring |
 
 ### Code
-[Landing Area Plotting]()
+No code, instead link to [data spreadsheet](https://docs.google.com/spreadsheets/d/1XrMvou4HHuxYgN3jNSytNLNSUDwSCTC8cPH6FZub-vQ/edit#gid=0)
 
 ### Reflection
+This section was a good conclusion to the data collection analysis. When collecting data, you often need to create a way to display the data in tables or graphs. I have used google sheets many times so the process of making graphs was not challenging but it still allowed me to understand the data I collected in a clear manner. 
 
 ## Media Test
 
