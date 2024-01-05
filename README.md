@@ -10,7 +10,13 @@
 * [Accelerometer OLED](#accelerometer-oled)
 * [Beam Part 1](#beam-part-1-no-fea)
 * [Beam Part 2](#beam-part-2-fea)
-
+* [Landing Area 1](#landing-area-1)
+* [Landing Area 2](#landing-area-2)
+* [Morse Code 1](#morse-code-1)
+* [Morse Code 2](#morse-code-2)
+* [Data Storage](#data-storage)
+* [Data Analysis](#data-analysis)
+  
 ## Basic Countdown
 
 ### Description
@@ -166,7 +172,7 @@ The first onshape design of the year was part of a contest; design a beam that c
 ### Reflection
 
 We began by looking at the winning design from the previous year as a basis for our design. Tomas Slinglove and Nathaniel had a design that used a lot of chamfers and triangles but after looking at ideal beam theory we realized that a curve would be better. With a [cantilever beam](https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory#Cantilever_beams)
-, if a force is applied at the end, the stress of the beam increases as you get farther from the force point. So the beam must taper as it gets closer to the end to account for that. With the added research we put in we created a I-beam design with a downward curve. We also added holes throughout the beam to reduce weight. 
+, if a force is applied at the end, the stress of the beam increases as you get farther from the force point. So the beam must taper as it gets closer to the end to account for that. With the added research we put in we created an I-beam design with a downward curve. We also added holes throughout the beam to reduce weight. 
 
 ## Beam Part 2 (FEA)
 
@@ -192,7 +198,7 @@ After running FEA on our original design we found that our I-beam was thicker an
 
 While testing our first beam we found that it broke not only in the middle but also horizontally where the upper I meets the base of the beam. To fix this we added braces connecting the base and top of the beam. Throughout the second design, we struggled to find meaningful ways to decrease the displacement, and going into the test Zach was skeptical about how much our beam had actually improved. The beam ended up holding 4.8 kg before displacing an improvement of 1.3 kg. We think this was due to inaccuracies in the FEA and the fact that Chris loaded the weights faster. This reduced the time the beam was under stress and therefore prevented the beam from gradually growing weaker as small cracks and breaks formed. In conclusion, our beam was very well-designed and strong. We cannot overstate how helpful variables are in designs you are constantly iterating. Use them when you can. 
 
-## Landing Area 
+## Landing Area 1
 
 ### Description
 This assignment did not require any physical components and was done entirely within VS code. The primary goal was to get experience using functions and to achieve that requirement the code uses a function to turn 3 coordinates inputted by the user into the area of a triangle. Three new functions `input()`, `split()`, and `try`/`except` allow the code to accept input, split the input into x and y coordinates, and check for syntax errors.
@@ -207,7 +213,7 @@ This assignment did not require any physical components and was done entirely wi
 ### Reflection
 
 
-## Landing Area OLED
+## Landing Area 2
 
 
 ### Description
@@ -221,7 +227,7 @@ This assignment did not require any physical components and was done entirely wi
 
 ### Reflection
 
-## Morse Code Translation
+## Morse Code 1
 
 ### Description
 
@@ -234,7 +240,7 @@ This assignment did not require any physical components and was done entirely wi
 
 ### Reflection
 
-## Morse Code Transmission
+## Morse Code 2
 
 ### Description
 
@@ -247,6 +253,31 @@ This assignment did not require any physical components and was done entirely wi
 
 ### Reflection
 
+## Landing Area 1
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
+
+### Code
+[Landing Area Functions]()
+
+### Reflection
+
+## Landing Area 2
+
+### Description
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
+
+### Code
+[Landing Area Plotting]()
+
+### Reflection
 
 ## Media Test
 
