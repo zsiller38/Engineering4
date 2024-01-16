@@ -265,7 +265,7 @@ A pico has MB of onboard storage. Using an MPU 6050 data acceleration data will 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/20240116_153317.jpg?raw=true" alt="wiring" style="width:318px;"> |
 
 ### Code
 [Data Storage](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/datasaving.py)
