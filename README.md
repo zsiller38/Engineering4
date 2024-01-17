@@ -10,7 +10,13 @@
 * [Accelerometer OLED](#accelerometer-oled)
 * [Beam Part 1](#beam-part-1-no-fea)
 * [Beam Part 2](#beam-part-2-fea)
-
+* [Landing Area 1](#landing-area-1)
+* [Landing Area 2](#landing-area-2)
+* [Morse Code 1](#morse-code-1)
+* [Morse Code 2](#morse-code-2)
+* [Data Storage](#data-storage)
+* [Data Analysis](#data-analysis)
+  
 ## Basic Countdown
 
 ### Description
@@ -166,7 +172,7 @@ The first onshape design of the year was part of a contest; design a beam that c
 ### Reflection
 
 We began by looking at the winning design from the previous year as a basis for our design. Tomas Slinglove and Nathaniel had a design that used a lot of chamfers and triangles but after looking at ideal beam theory we realized that a curve would be better. With a [cantilever beam](https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory#Cantilever_beams)
-, if a force is applied at the end, the stress of the beam increases as you get farther from the force point. So the beam must taper as it gets closer to the end to account for that. With the added research we put in we created a I-beam design with a downward curve. We also added holes throughout the beam to reduce weight. 
+, if a force is applied at the end, the stress of the beam increases as you get farther from the force point. So the beam must taper as it gets closer to the end to account for that. With the added research we put in we created an I-beam design with a downward curve. We also added holes throughout the beam to reduce weight. 
 
 ## Beam Part 2 (FEA)
 
@@ -192,46 +198,53 @@ After running FEA on our original design we found that our I-beam was thicker an
 
 While testing our first beam we found that it broke not only in the middle but also horizontally where the upper I meets the base of the beam. To fix this we added braces connecting the base and top of the beam. Throughout the second design, we struggled to find meaningful ways to decrease the displacement, and going into the test Zach was skeptical about how much our beam had actually improved. The beam ended up holding 4.8 kg before displacing an improvement of 1.3 kg. We think this was due to inaccuracies in the FEA and the fact that Chris loaded the weights faster. This reduced the time the beam was under stress and therefore prevented the beam from gradually growing weaker as small cracks and breaks formed. In conclusion, our beam was very well-designed and strong. We cannot overstate how helpful variables are in designs you are constantly iterating. Use them when you can. 
 
-## Landing Area 
+## Landing Area 1
 
 ### Description
+This assignment did not require any physical components and was done entirely within VS code. The primary goal was to get experience using functions and to achieve that requirement the code uses a function to turn 3 coordinates inputted by the user into the area of a triangle. Three new functions `input()`, `split()`, and `try`/`except` allow the code to accept input, split the input into x and y coordinates, and check for syntax errors.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
 | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/landingarea1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wiring |
 
 ### Code
-[Landing Area]()
+[Landing Area](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/Landingarea.py)
 
 ### Reflection
+Landing Area Part 1 was in my opinion one of the more challenging assignments of the year because of the number of new functions and components. The underlying purpose was to familiarize myself with functions and how they can be used. In this case, I used a function that took the three coordinates inputted by the user and calculated the area of the triangle using [this equation](https://www.cuemath.com/geometry/area-of-triangle-in-coordinate-geometry/). The function would then return that area to be displayed on the serial monitor. Within that function there were the split function, try function, and float function. The split function was used to split the input coordinate among the x and y components. The try function is used to check if the input is valid in relation to the input parameters; if not it exits the function with and error message. Finally, float converts values into floating decimals to be put into the equation for the triangle area. 
 
-## Landing Area OLED
+## Landing Area 2
 
 ### Description
+Integrate a small OLED screen to display the plotted triangles and area. The previous assignment takes the input of three coordinates to calculate the area of the triangle created. The OLED is used to plot the points and display the created triangle and its area. The code also required the adafruit_display_shapes library to plot the triangle and x and y-axis.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
 | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LandingAreaOLEDF.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/LandingareaOLEDwiring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Code
-[Landing Area OLED]()
+[Landing Area OLED](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/OLEDLanding.py)
 
 ### Reflection
+Getting the OLED to display the triangles was more of a troubleshooting problem than code difficulty. I used my previous OLED assignments to retrieve the setup code and then simply inserted the plotting commands in the various code loops. One thing to note is the OLED does not use what one would traditionally think of as a coordinate grid with the origin in the center. Instead, the OLED origin is in the top left corner, so the center of the screen is (64,32). To plot the points correctly which are given in the form of a traditional coordinate grid, 64 was added to every x coordinate and 32 to every y. This accounts for the OLED origin in the top left corner. 
 
-## Morse Code Translation
+## Morse Code 1
 
 ### Description
+This code will take any written input and translate it into Morse code. A Morse code directory is used to store the character translations. Each character is individually translated by passing it through `for element in string_name:`. In the output string, the characters are separated by spaces and the words by a slash. If the user types -q the code will exit the loop using `break`.
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
 | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | No Wriring |
 
 ### Code
-[Morse Code Translation]()
+[Morse Code Translation](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/morsecode.py)
 
 ### Reflection
+The most interesting part of this assignment was using a Python dictionary. This was the first time I had used one but, its uses became quickly apparent. A dictionary allows you to call information in this case a translation when it is needed. This is what allowed us to translate the input text letter by letter. Here is more info on a [python dictionary](https://www.w3schools.com/python/python_dictionaries.asp). Another important command was `break`. When this command is used the current loop or function will be exited. In this situation it was used to exit the translating prompt when -q was entered. 
 
-## Morse Code Transmission
+## Morse Code 2
+This project is an extension of the previous one. Now an LED is blinked at varying intervals to transmit the message. Five variables are used for the timing. Two for how long the LED should turn on for a dot and a dash, two determine how long the code should pause for a gap between characters and words, and the final one for the time in between dots and dashes.
 
 ### Description
 
@@ -240,10 +253,40 @@ While testing our first beam we found that it broke not only in the middle but a
 | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecodeLED.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecodeLEDwiring.jpg?raw=true" alt="wiring2" style="width:318px;"> |
 
 ### Code
-[Morse Code Transmission]()
+[Morse Code Transmission](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/morsecodeLED.py)
 
 ### Reflection
+There is not much to say about this assignment as it only involved blinking a light to transmit a Morse code message. Blinking LEDs were one of the first things I learned to do so I got through it pretty quickly. Even though it was easy the end result of this project was one of my favorites this year apart from the landing area one. There was something very satisfying about watching the LED blink away. 
 
+## Data Storage
+
+### Description
+A pico has MB of onboard storage. Using an MPU 6050 data acceleration data will be recorded and saved to the pico to be downloaded. The wiring and code are exactly the same as the original MPU 6050 project except for a small switch and lines that open a CSV file and insert our data into the file. The pico cannot download data and upload code at the same time so the switch is used to change between "data mode" and "code mode". A boot.py file is used to switch between data and code mode when the pico boots up. Data mode is shown by 10 fast blinks of the onboard LED and code mode is three long blinks. 
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/correctwiredatasaving.jpg?raw=true" alt="wiring" style="width:318px;"> |
+
+### Code
+[Data Storage](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/datasaving.py)
+
+### Reflection
+For this assignment, the execution of switching between code and data mode was the hardest part. After a couple of years of coding, it has become intuitive to just run your code and see if it works. But with this project, after you upload your code you have to shut off your pico and change to data mode to actually record data. There were many times I uploaded and ran my code but no data file was created because I never switched the pico into data mode. The process for switching the mode was to unplug the pico flip the switch restart the pico and then replug the pico to download your data. this restarts the pico which is needed for it to start running in data mode. Other than that opening and downloading data to a CSV file. This assignment will be very useful once we begin our pi in the sky project because it is essentially the same procedure for recording data. 
+
+## Data Analysis
+
+### Description
+Use the CSV data collected in the previous assignment to create two graphs to represent data. One graph will use a line graph to display the x, y, and z acceleration on the y-axis and time on the x-axis. The other will show whether the tilt factor is 0 or 1 denoting if the board has been tilted 90 degrees from the horizontal. 
+
+| **Evidence** | **Wiring** |
+| ----- | ----- |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Tilt%20Meter.png?raw=true" alt="wiring2" style="width:318px;" > <img src="https://github.com/zsiller38/Engineering4/blob/main/images/Zachary's%20MPU%20Data.png?raw=true" alt="wiring2" style="width:318px;" > | No Wriring |
+
+### Code
+No code, instead link to [data spreadsheet](https://docs.google.com/spreadsheets/d/1XrMvou4HHuxYgN3jNSytNLNSUDwSCTC8cPH6FZub-vQ/edit#gid=0)
+
+### Reflection
+This section was a good conclusion to the data collection analysis. When collecting data, you often need to create a way to display the data in tables or graphs. I have used google sheets many times so the process of making graphs was not challenging but it still allowed me to understand the data I collected in a clear manner. 
 
 ## Media Test
 
@@ -252,7 +295,6 @@ While testing our first beam we found that it broke not only in the middle but a
 
 ### Test Image
 ![Food](images/download.jpg)  
-
 
 ### Test GIF
 ![DinoGif](images/dinoprepgif.gif) 
