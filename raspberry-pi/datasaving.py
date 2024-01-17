@@ -7,7 +7,7 @@ import digitalio
 import adafruit_mpu6050 
 import busio
 
-timeelapsed=time.monotonic()
+timeelapsed=time.monotonic() #starts time
 tiltR=0
 
 ledr=digitalio.DigitalInOut(board.GP16) #Lines 10-16 led set up
@@ -23,8 +23,8 @@ mpu = adafruit_mpu6050.MPU6050(i2c)
 tiltT = .5 #tilt variable 
 ledr.value=False
 
-with open("/data.csv", "a") as datalog:
-
+with open("/data.csv", "a") as datalog: #opens the csv file to record data in
+#only starts loop once the file is opened
     while True:
         Acceleration = mpu.acceleration
         Xa,Ya,Za=Acceleration    
@@ -35,11 +35,11 @@ with open("/data.csv", "a") as datalog:
         else:
             ledr.value=False
             tiltR=0
-        datalog.write(f"{timeelapsed},{Xa:.3f},{Ya:.3f},{Za:.3f},{tiltR}\n")
+        datalog.write(f"{timeelapsed},{Xa:.3f},{Ya:.3f},{Za:.3f},{tiltR}\n") #writes to the datalog and formats it using an f-string
         led.value=True
         time.sleep(0.125)
         led.value=False      
-        datalog.flush()
+        datalog.flush()#clears the data log so the same data does not get recorded twice
         time.sleep(0.125)
 
     

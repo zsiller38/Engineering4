@@ -2,7 +2,7 @@
 # Zachary Siller
 # Morse Code Part 1 11/8/2023
 translatedtext = ""
-MORSE_CODE = { 'A':'.-', 'B':'-...',
+MORSE_CODE = { 'A':'.-', 'B':'-...',    #Dictionary containing translations
     'C':'-.-.', 'D':'-..', 'E':'.',
     'F':'..-.', 'G':'--.', 'H':'....',
     'I':'..', 'J':'.---', 'K':'-.-',
@@ -18,9 +18,9 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '?':'..--..', '/':'-..-.', '-':'-....-',
     '(':'-.--.', ')':'-.--.-', ' ':'/'}
 
-def translator (Itext):
+def translator (Itext): #Function that translates text letter by letter
     translatedtext = ""
-    for letter in Itext:
+    for letter in Itext: #Runs for each letter and turns them into capital letters because the dictionary uses capitals.
         letterU = letter.upper()
         #print(MORSE_CODE[letterU])
         translatedtext = translatedtext + " " + MORSE_CODE[letterU]
@@ -28,7 +28,7 @@ def translator (Itext):
 while True:
     writeI = input('Write your message or press -q to exit: ')
     translatedtext = translator(writeI)
-    if writeI == "-q":
+    if writeI == "-q": #checks if -q is written and exits the code if so
         print("exit loop")
         break
     else:
