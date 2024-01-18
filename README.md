@@ -270,6 +270,9 @@ A pico has MB of onboard storage. Using an MPU 6050 data acceleration data will 
 ### Code
 [Data Storage](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/datasaving.py)
 
+### CSV Data File
+[CSV File](https://github.com/zsiller38/Engineering4/blob/main/images/data.csv)
+
 ### Reflection
 For this assignment, the execution of switching between code and data mode was the hardest part. After a couple of years of coding, it has become intuitive to just run your code and see if it works. But with this project, after you upload your code you have to shut off your pico and change to data mode to actually record data. There were many times I uploaded and ran my code but no data file was created because I never switched the pico into data mode. The process for switching the mode was to unplug the pico flip the switch restart the pico and then replug the pico to download your data. this restarts the pico which is needed for it to start running in data mode. Other than that opening and downloading data to a CSV file. This assignment will be very useful once we begin our pi in the sky project because it is essentially the same procedure for recording data. 
 
