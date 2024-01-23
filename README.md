@@ -261,11 +261,11 @@ There is not much to say about this assignment as it only involved blinking a li
 ## Data Storage
 
 ### Description
-A pico has MB of onboard storage. Using an MPU 6050 data acceleration data will be recorded and saved to the pico to be downloaded. The wiring and code are exactly the same as the original MPU 6050 project except for a small switch and lines that open a CSV file and insert our data into the file. The pico cannot download data and upload code at the same time so the switch is used to change between "data mode" and "code mode". A boot.py file is used to switch between data and code mode when the pico boots up. Data mode is shown by 10 fast blinks of the onboard LED and code mode is three long blinks. 
+A pico has 2MB of onboard storage. Using an MPU 6050 data acceleration data will be recorded and saved to the pico to be downloaded. The wiring and code are exactly the same as the original MPU 6050 project except for a small switch and lines that open a CSV file and insert our data into the file. The pico cannot download data and upload code at the same time so the switch is used to change between "data mode" and "code mode". A boot.py file is used to switch between data and code mode when the pico boots up. Data mode is shown by 10 fast blinks of the onboard LED and code mode is three long blinks. 
 
 | **Evidence** | **Wiring** |
 | ----- | ----- |
-| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/morsecode1.gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/correctwiredatasaving.jpg?raw=true" alt="wiring" style="width:318px;"> |
+| <img src="https://github.com/zsiller38/Engineering4/blob/main/images/My%20Project%20(1).gif?raw=true" alt="wiring2" style="width:318px;"> | <img src="https://github.com/zsiller38/Engineering4/blob/main/images/correctwiredatasaving.jpg?raw=true" alt="wiring" style="width:318px;"> |
 
 ### Code
 [Data Storage](https://github.com/zsiller38/Engineering4/blob/main/raspberry-pi/datasaving.py)
