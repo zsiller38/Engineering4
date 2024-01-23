@@ -1,17 +1,13 @@
-# SPDX-FileCopyrightText: 2021 Kattni Rembor for Adafruit Industries
-# Modified by Matthew Miller, Charlottesville High School
-
-# SPDX-License-Identifier: MIT
-# type: ignore
 """
 boot.py file for Pico data logging example. If pin GP0 is connected to GND when
 the pico starts up, make the filesystem writeable by CircuitPython.
 """
+#type: ignore
+
 import board
 import digitalio
 import storage
 import time
-
 
 write_pin = digitalio.DigitalInOut(board.GP0)
 write_pin.direction = digitalio.Direction.INPUT
@@ -38,4 +34,3 @@ else: # Code Mode, shown by three long blinks
         led.value = False
         time.sleep(0.5)
         i = i+1
-
