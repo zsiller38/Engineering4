@@ -40,17 +40,17 @@ def translator (Itext):
         translatedtext = translatedtext + " " + MORSE_CODE[letterU]
     print(translatedtext)
     for character in translatedtext: #lines 42-63 looks what kind of character is used and what the pause time must be for said character.
-        if character = ".":
+        if character = ".": #checks if character is a dot
             led.value=True #Turns light on and off
             time.sleep(dot)
             led.value=False
             time.sleep(cseperator)
-        elif character = "-":
+        elif character = "-": #checks if character is a dash
             led.value=True #Turns light on and off
             time.sleep(dash)
             led.value=False
             time.sleep(cseperator)
-        elif character = " ":
+        elif character = " ": #Checks if character is a space
             led.value=True #Turns light on and off
             time.sleep(space)
             led.value=False

@@ -25,6 +25,7 @@ def translator (Itext): #Function that translates text letter by letter
         #print(MORSE_CODE[letterU])
         translatedtext = translatedtext + " " + MORSE_CODE[letterU]
     print(translatedtext)
+    
 while True:
     writeI = input('Write your message or press -q to exit: ')
     translatedtext = translator(writeI)

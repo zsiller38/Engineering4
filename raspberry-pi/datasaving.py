@@ -10,7 +10,7 @@ import busio
 timeelapsed=time.monotonic() #starts time
 tiltR=0
 
-ledr=digitalio.DigitalInOut(board.GP16) #Lines 10-16 led set up
+ledr=digitalio.DigitalInOut(board.GP16) #Lines 13-17 led set up
 ledr.direction=digitalio.Direction.OUTPUT
 
 led = digitalio.DigitalInOut(board.LED)
@@ -20,7 +20,7 @@ sda_pin = board.GP14
 scl_pin = board.GP15
 i2c = busio.I2C(scl_pin, sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
-tiltT = .5 #tilt variable 
+tiltT = .5 #tilt variable that can be tuned so that led only turns on when the board is rotated vertically 90 degrees
 ledr.value=False
 
 with open("/data.csv", "a") as datalog: #opens the csv file to record data in

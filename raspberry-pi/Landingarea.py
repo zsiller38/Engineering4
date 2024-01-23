@@ -2,9 +2,9 @@
 # Zachary Siller
 # Landing Area Part 1 10/20/2023
 
-#import board
+#import board 
 #import digitalio
-
+#inputs not required because code is run without a board
 
 def trianglearea (x1y1, x2y2, x3y3): #Function that calculates triangle area and uses a try loop to eliminate invalid inputs
     try:
@@ -37,7 +37,7 @@ while True:
 
     area = trianglearea(coord1, coord2, coord3) #Calls the function.
     if area==0:
-        continue
+        continue #continue function will return back to the start of the loop where new coordinates are requested.
     
     else:
         print(f"The triangle with vertices ({coord1}), ({coord2}), ({coord3}) has area:{area} km^2")
