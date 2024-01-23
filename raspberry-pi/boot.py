@@ -2,8 +2,6 @@
 boot.py file for Pico data logging example. If pin GP0 is connected to GND when
 the pico starts up, make the filesystem writeable by CircuitPython.
 """
-#type: ignore
-
 import board
 import digitalio
 import storage
